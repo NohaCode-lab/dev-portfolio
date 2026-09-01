@@ -16,8 +16,8 @@ const projects = [
       "Full-stack fitness platform with interactive class schedules, trainer bookings, member subscriptions, and workout analytics.",
     image: "/projects/fitness-club.jpg",
     tags: ["React", "NestJS", "PostgreSQL", "Prisma", "Redis", "Gemini AI", "Tailwind CSS"],
-    link: "https://github.com/NohaCode-lab/fit-zone",
-    github: "https://github.com/NohaCode-lab/fit-zone",
+    link: "https://github.com/NohaCode-lab/Fit-Zone",
+    github: "https://github.com/NohaCode-lab/Fit-Zone",
   },
   {
     title: "Supper-Mind",
@@ -33,9 +33,9 @@ const projects = [
     description:
       "Luxury jewelry e-commerce web platform featuring dynamic catalog filtering, shopping cart state, and responsive checkout.",
     image: "/projects/jewelry-store.jpg",
-    tags: ["React", "TypeScript", "Express", "Prisma", "PostgreSQL", "Tailwind CSS", "Playwright"],
-    link: "https://github.com/NohaCode-lab/mangata-gallo",
-    github: "https://github.com/NohaCode-lab/mangata-gallo",
+    tags: ["React", "TypeScript", "Express", "Prisma", "PostgreSQL", "Tailwind CSS", "Vitest"],
+    link: "https://github.com/NohaCode-lab/Jewelry-Store-website",
+    github: "https://github.com/NohaCode-lab/Jewelry-Store-website",
   },
   {
     title: "Smart Watch E-Commerce",
@@ -43,17 +43,17 @@ const projects = [
       "Modern e-commerce platform for wearable devices featuring product catalog browsing, specification filtering, and shopping cart management.",
     image: "/projects/Smart-Watch.jpg",
     tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Design"],
-    link: "https://github.com/NohaCode-lab/smart-watch-ecommerce",
-    github: "https://github.com/NohaCode-lab/smart-watch-ecommerce",
+    link: "https://github.com/NohaCode-lab/E-Commerce-Website",
+    github: "https://github.com/NohaCode-lab/E-Commerce-Website",
   },
   {
     title: "Coffee Shop & Restaurant",
     description:
       "Interactive restaurant web application featuring dynamic menu browsing, table reservation booking, and location showcase.",
     image: "/projects/restaurant.jpg",
-    tags: ["HTML5", "CSS3", "JavaScript", "UI/UX Design", "Responsive Layout"],
-    link: "https://github.com/NohaCode-lab/coffee-shop-website",
-    github: "https://github.com/NohaCode-lab/coffee-shop-website",
+    tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "Responsive Layout"],
+    link: "https://github.com/NohaCode-lab/Coffee-Shop-Website",
+    github: "https://github.com/NohaCode-lab/Coffee-Shop-Website",
   },
   {
     title: "Aether-Travel",
@@ -61,17 +61,17 @@ const projects = [
       "Interactive travel exploration platform with dynamic map routing, tour package booking, and destination discovery.",
     image: "/projects/travel-agency.jpg",
     tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "Leaflet", "Zustand", "REST APIs"],
-    link: "https://github.com/NohaCode-lab/aether-travel",
-    github: "https://github.com/NohaCode-lab/aether-travel",
+    link: "https://github.com/NohaCode-lab/Aether-Travel",
+    github: "https://github.com/NohaCode-lab/Aether-Travel",
   },
   {
     title: "PetCare Clinic",
     description:
       "Veterinary clinic web portal providing online appointment scheduling, pet medical records, and service management.",
     image: "/projects/pet-clinic.jpg",
-    tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "REST APIs"],
-    link: "https://github.com/NohaCode-lab/petcare-clinic",
-    github: "https://github.com/NohaCode-lab/petcare-clinic",
+    tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Layout"],
+    link: "https://github.com/NohaCode-lab/Pet-Clinic",
+    github: "https://github.com/NohaCode-lab/Pet-Clinic",
   },
 ];
 
