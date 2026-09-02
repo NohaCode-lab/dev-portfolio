@@ -83,8 +83,7 @@
 
     /* Section Styles */
     section {
-      margin-bottom: 14px;
-      page-break-inside: auto;
+      margin-bottom: 13px;
     }
 
     .avoid-break {
@@ -191,6 +190,24 @@
     }
 
     .entry-item strong {
+      color: #0f172a;
+    }
+
+    /* Structured Languages Row */
+    .languages-row {
+      display: flex;
+      gap: 30px;
+      font-size: 8.8pt;
+      color: #334155;
+    }
+
+    .language-entry {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .language-entry strong {
       color: #0f172a;
     }
   </style>
@@ -316,15 +333,23 @@
       </div>
     </section>
 
-    <!-- Education & Languages -->
+    <!-- Education -->
     <section class="avoid-break">
-      <div class="section-title">EDUCATION AND LANGUAGES</div>
-      <div class="entry-list">
-        <div class="entry-item">
-          <strong>Bachelor of Arts in English Language and Literature (BA)</strong> (1998) - The Higher Institute of Languages, Cairo, Egypt
+      <div class="section-title">EDUCATION</div>
+      <div class="entry-item">
+        <strong>Bachelor of Arts in English Language and Literature (BA)</strong> (1998) - The Higher Institute of Languages, Cairo, Egypt
+      </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="avoid-break">
+      <div class="section-title">LANGUAGES</div>
+      <div class="languages-row">
+        <div class="language-entry">
+          <strong>Arabic:</strong> Native Proficiency
         </div>
-        <div class="entry-item">
-          <strong>Languages:</strong> Arabic (Native), English (Professional Working Proficiency)
+        <div class="language-entry">
+          <strong>English:</strong> Professional Working Proficiency
         </div>
       </div>
     </section>
