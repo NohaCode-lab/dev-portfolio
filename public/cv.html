@@ -1,15 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Noha Ahmed - Curriculum Vitae</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-
     @page {
       size: A4;
-      margin: 10mm 14mm 10mm 14mm;
+      margin: 12mm 15mm 12mm 15mm;
     }
 
     * {
@@ -19,10 +16,10 @@
     }
 
     body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: Arial, Helvetica, "Segoe UI", sans-serif;
       color: #1e293b;
       background: #ffffff;
-      line-height: 1.4;
+      line-height: 1.42;
       font-size: 9pt;
       -webkit-print-color-adjust: exact;
       print-color-adjust: exact;
@@ -37,7 +34,7 @@
     header {
       border-bottom: 2px solid #0f766e;
       padding-bottom: 8px;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
     }
 
     .header-top {
@@ -47,8 +44,8 @@
     }
 
     .name-title h1 {
-      font-size: 21pt;
-      font-weight: 800;
+      font-size: 20pt;
+      font-weight: bold;
       color: #0f172a;
       letter-spacing: -0.5px;
       line-height: 1.1;
@@ -56,50 +53,37 @@
 
     .name-title h2 {
       font-size: 10.5pt;
-      font-weight: 600;
+      font-weight: bold;
       color: #0f766e;
-      margin-top: 2px;
-      letter-spacing: 0.2px;
+      margin-top: 3px;
     }
 
     .contact-info {
       text-align: right;
       font-size: 8.5pt;
-      color: #475569;
+      color: #334155;
       line-height: 1.5;
     }
 
     .contact-info a {
       color: #0f766e;
       text-decoration: none;
-      font-weight: 600;
+      font-weight: bold;
     }
 
     section {
-      margin-bottom: 10px;
+      margin-bottom: 11px;
     }
 
     .section-title {
       font-size: 10pt;
-      font-weight: 700;
+      font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 0.8px;
+      letter-spacing: 0.5px;
       color: #0f172a;
       border-bottom: 1px solid #cbd5e1;
       padding-bottom: 2px;
       margin-bottom: 6px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .section-title::before {
-      content: "";
-      display: inline-block;
-      width: 6px;
-      height: 6px;
-      background-color: #0f766e;
-      border-radius: 2px;
     }
 
     .summary-text {
@@ -109,27 +93,23 @@
       text-align: justify;
     }
 
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 4px 14px;
+    .skills-list {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
     }
 
     .skill-category {
       font-size: 8.6pt;
+      color: #334155;
     }
 
     .skill-category strong {
       color: #0f172a;
-      font-weight: 600;
-    }
-
-    .skill-category span {
-      color: #475569;
     }
 
     .project-item {
-      margin-bottom: 7px;
+      margin-bottom: 8px;
       page-break-inside: avoid;
     }
 
@@ -137,12 +117,12 @@
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      margin-bottom: 1px;
+      margin-bottom: 2px;
     }
 
     .project-title {
       font-size: 9.2pt;
-      font-weight: 700;
+      font-weight: bold;
       color: #0f172a;
     }
 
@@ -152,36 +132,26 @@
     }
 
     .project-tech {
-      font-size: 7.8pt;
-      font-weight: 600;
+      font-size: 8pt;
+      font-weight: bold;
       color: #0f766e;
-      background: #f0fdfa;
-      padding: 1px 5px;
-      border-radius: 4px;
-      border: 1px solid #ccfbf1;
     }
 
     .project-desc {
-      font-size: 8.4pt;
+      font-size: 8.5pt;
       color: #334155;
-      line-height: 1.38;
+      line-height: 1.4;
       padding-left: 8px;
       border-left: 2px solid #e2e8f0;
     }
 
-    .two-col-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 14px;
-    }
-
-    .list-item {
+    .entry-item {
       font-size: 8.6pt;
       color: #334155;
-      margin-bottom: 3px;
+      margin-bottom: 4px;
     }
 
-    .list-item strong {
+    .entry-item strong {
       color: #0f172a;
     }
   </style>
@@ -191,11 +161,11 @@
     <header>
       <div class="header-top">
         <div class="name-title">
-          <h1>Noha Ahmed</h1>
-          <h2>Frontend & Full-Stack Developer | AI & SaaS Application Engineering</h2>
+          <h1>NOHA MAMDOUH AHMED</h1>
+          <h2>Frontend and Full-Stack Developer | AI and SaaS Application Engineering</h2>
         </div>
         <div class="contact-info">
-          <div>Kuwait | Phone: +965 65063531</div>
+          <div>Location: Kuwait | Phone: +965 65063531</div>
           <div>Email: <a href="mailto:noha.mamdouh@outlook.com">noha.mamdouh@outlook.com</a></div>
           <div>GitHub: <a href="https://github.com/NohaCode-lab" target="_blank">github.com/NohaCode-lab</a></div>
         </div>
@@ -203,116 +173,110 @@
     </header>
 
     <section>
-      <div class="section-title">Professional Summary</div>
+      <div class="section-title">PROFESSIONAL SUMMARY</div>
       <p class="summary-text">
-        Frontend & Full-Stack Developer specializing in modern React ecosystems, TypeScript, Python (FastAPI), and Node.js (NestJS) to engineer responsive web applications and AI-augmented SaaS platforms. Meta-certified in Front-End Engineering and UX/UI Design Principles, with a proven portfolio of 5 architected applications backed by 145 passing automated tests across five applications and CI/CD workflows. Skilled in component-driven UI architecture, client-side state management (Zustand), and secure RESTful API integrations with AI workflow orchestration.
+        Frontend and Full-Stack Developer specializing in modern React ecosystems, TypeScript, Python (FastAPI), and Node.js (NestJS) to engineer responsive web applications and AI-augmented SaaS platforms. Meta-certified in Front-End Engineering and UX/UI Design Principles, with a proven portfolio of 5 architected applications backed by 145 passing automated tests across five applications and CI/CD workflows. Skilled in component-driven UI architecture, client-side state management (Zustand), and secure RESTful API integrations with AI workflow orchestration.
       </p>
     </section>
 
     <section>
-      <div class="section-title">Core Technical Skills</div>
-      <div class="skills-grid">
+      <div class="section-title">TECHNICAL SKILLS</div>
+      <div class="skills-list">
         <div class="skill-category">
-          <strong>Frontend Engineering:</strong>
-          <span>React (18/19), TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Vite, Zustand, React Router, Framer Motion, Responsive Design, WCAG.</span>
+          <strong>Frontend Engineering:</strong> React (18/19), TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Vite, Zustand, React Router, Framer Motion, Responsive Design, WCAG.
         </div>
         <div class="skill-category">
-          <strong>Backend & API Systems:</strong>
-          <span>Python, FastAPI, Node.js, NestJS, Express.js, RESTful APIs, PostgreSQL, Prisma ORM, Redis, Supabase (BaaS).</span>
+          <strong>Backend and API Systems:</strong> Python, FastAPI, Node.js, NestJS, Express.js, RESTful APIs, PostgreSQL, Prisma ORM, Redis, Supabase (BaaS).
         </div>
         <div class="skill-category">
-          <strong>AI & Intelligent Systems:</strong>
-          <span>OpenAI API, Google Gemini AI, LangGraph, AI Agent Workflows, Prompt Engineering, Contextual Retrieval Patterns.</span>
+          <strong>AI and Intelligent Systems:</strong> OpenAI API, Google Gemini AI, LangGraph, AI Agent Workflows, Prompt Engineering, Contextual Retrieval Patterns.
         </div>
         <div class="skill-category">
-          <strong>DevOps, Quality & Security:</strong>
-          <span>Git, GitHub Actions (CI/CD), Docker, Vitest, Jest, Unit & Integration Testing, ESLint, OWASP Security Hardening.</span>
+          <strong>DevOps, Quality and Security:</strong> Git, GitHub Actions (CI/CD), Docker, Vitest, Jest, Unit and Integration Testing, ESLint, OWASP Security Hardening.
+        </div>
+        <div class="skill-category">
+          <strong>UI/UX and Design Systems:</strong> Figma, Wireframing, UX/UI Design Principles (Meta Certified), Design Tokens.
         </div>
       </div>
     </section>
 
     <section>
-      <div class="section-title">Featured Software Engineering Projects</div>
+      <div class="section-title">FEATURED SOFTWARE ENGINEERING PROJECTS</div>
 
       <div class="project-item">
         <div class="project-header">
-          <span class="project-title"><a href="https://github.com/NohaCode-lab/CareerCraft" target="_blank">CareerCraft - AI Career Platform & Multi-Agent SaaS</a></span>
-          <span class="project-tech">React 19 &bull; TypeScript &bull; FastAPI &bull; Python &bull; LangGraph &bull; Vitest &bull; Docker</span>
+          <span class="project-title"><a href="https://github.com/NohaCode-lab/CareerCraft" target="_blank">CareerCraft - AI Career Platform and Multi-Agent SaaS</a></span>
+          <span class="project-tech">React 19 | TypeScript | FastAPI | Python | LangGraph | Vitest | Docker</span>
         </div>
         <div class="project-desc">
-          <span>Architected a multi-service career optimization platform featuring resume ATS parsing, job matching algorithms, and automated mock interview simulations. Implemented LangGraph-driven agentic workflows in Python/FastAPI to orchestrate candidate evaluations. Enforced automated quality gates with <strong>82 passing Vitest unit & integration tests</strong>, trilingual i18n localization (EN, DE, AR across 258 keys), and Docker container verification.</span>
+          Architected a multi-service career optimization platform featuring resume ATS parsing, job matching algorithms, and automated mock interview simulations. Implemented LangGraph-driven agentic workflows in Python/FastAPI to orchestrate candidate evaluations. Enforced automated quality gates with <strong>82 passing Vitest unit and integration tests</strong>, trilingual i18n localization (EN, DE, AR across 258 keys), and Docker container verification.
         </div>
       </div>
 
       <div class="project-item">
         <div class="project-header">
-          <span class="project-title"><a href="https://github.com/NohaCode-lab/Supper-Mind" target="_blank">Supper-Mind - Multilingual AI Wellness & Habit Analytics SaaS</a></span>
-          <span class="project-tech">React &bull; TypeScript &bull; Tailwind CSS &bull; Zustand &bull; Supabase &bull; OpenAI &bull; Vitest</span>
+          <span class="project-title"><a href="https://github.com/NohaCode-lab/Supper-Mind" target="_blank">Supper-Mind - Multilingual AI Wellness and Habit Analytics SaaS</a></span>
+          <span class="project-tech">React | TypeScript | Tailwind CSS | Zustand | Supabase | OpenAI | Vitest</span>
         </div>
         <div class="project-desc">
-          <span>Engineered an AI wellness tracking application featuring mood analytics dashboards, habit streak calculation logic, and conversational AI coaching. Integrated Supabase authentication and PostgreSQL persistence with offline fallback mechanisms, validated across <strong>17 automated Vitest tests</strong>.</span>
+          Engineered an AI wellness tracking application featuring mood analytics dashboards, habit streak calculation logic, and conversational AI coaching. Integrated Supabase authentication and PostgreSQL persistence with offline fallback mechanisms, validated across <strong>17 automated Vitest tests</strong>.
         </div>
       </div>
 
       <div class="project-item">
         <div class="project-header">
-          <span class="project-title"><a href="https://github.com/NohaCode-lab/Fit-Zone" target="_blank">Fit-Zone - Full-Stack Fitness Management & Booking Platform</a></span>
-          <span class="project-tech">React &bull; NestJS &bull; Prisma ORM &bull; PostgreSQL &bull; Redis &bull; Gemini AI</span>
+          <span class="project-title"><a href="https://github.com/NohaCode-lab/Fit-Zone" target="_blank">Fit-Zone - Full-Stack Fitness Management and Booking Platform</a></span>
+          <span class="project-tech">React | NestJS | Prisma ORM | PostgreSQL | Redis | Gemini AI</span>
         </div>
         <div class="project-desc">
-          <span>Developed a full-stack gym management platform with NestJS, Prisma ORM, and PostgreSQL, providing dynamic class scheduling and trainer booking. Implemented secure authentication with JWT tokens, Argon2 password hashing, and role-based access control (RBAC), integrating Redis caching and Gemini AI, backed by <strong>9 automated tests (4 frontend + 5 backend)</strong>.</span>
+          Developed a full-stack gym management platform with NestJS, Prisma ORM, and PostgreSQL, providing dynamic class scheduling and trainer booking. Implemented secure authentication with JWT tokens, Argon2 password hashing, and role-based access control (RBAC), integrating Redis caching and Gemini AI, backed by <strong>9 automated tests (4 frontend + 5 backend)</strong>.
         </div>
       </div>
 
       <div class="project-item">
         <div class="project-header">
-          <span class="project-title"><a href="https://github.com/NohaCode-lab/Jewelry-Store-website" target="_blank">Mangata & Gallo - Luxury E-Commerce Platform & AI Atelier Concierge</a></span>
-          <span class="project-tech">React &bull; TypeScript &bull; Express.js &bull; Prisma &bull; PostgreSQL &bull; Tailwind CSS</span>
+          <span class="project-title"><a href="https://github.com/NohaCode-lab/Jewelry-Store-website" target="_blank">Mangata and Gallo - Luxury E-Commerce Platform and AI Atelier Concierge</a></span>
+          <span class="project-tech">React | TypeScript | Express.js | Prisma | PostgreSQL | Tailwind CSS</span>
         </div>
         <div class="project-desc">
-          <span>Built a luxury jewelry commerce platform featuring real-time metal variant selectors, diamond carat pricing logic, and an interactive AI gift concierge. Hardened authentication session services and established HTTP security headers (nosniff, strict-origin-when-cross-origin), verified across <strong>19 Vitest tests</strong>.</span>
+          Built a luxury jewelry commerce platform featuring real-time metal variant selectors, diamond carat pricing logic, and an interactive AI gift concierge. Hardened authentication session services and established HTTP security headers (nosniff, strict-origin-when-cross-origin), verified across <strong>19 Vitest tests</strong>.
         </div>
       </div>
 
       <div class="project-item">
         <div class="project-header">
-          <span class="project-title"><a href="https://github.com/NohaCode-lab/Aether-Travel" target="_blank">Aether-Travel - Interactive Destination & Tour Discovery Platform</a></span>
-          <span class="project-tech">React &bull; TypeScript &bull; Vite &bull; Tailwind CSS &bull; Leaflet Maps &bull; Zustand</span>
+          <span class="project-title"><a href="https://github.com/NohaCode-lab/Aether-Travel" target="_blank">Aether-Travel - Interactive Destination and Tour Discovery Platform</a></span>
+          <span class="project-tech">React | TypeScript | Vite | Tailwind CSS | Leaflet Maps | Zustand</span>
         </div>
         <div class="project-desc">
-          <span>Created a travel discovery application integrating Leaflet interactive map routing, dynamic tour package filters, and centralized Zustand state management, backed by <strong>18 integration tests</strong>.</span>
+          Created a travel discovery application integrating Leaflet interactive map routing, dynamic tour package filters, and centralized Zustand state management, backed by <strong>18 integration tests</strong>.
         </div>
       </div>
     </section>
 
     <section>
-      <div class="two-col-grid">
-        <div>
-          <div class="section-title">Certifications & Professional Development</div>
-          <div class="list-item">
-            <strong>Meta: Introduction to Front-End Development</strong> (Coursera ID: 8AM5SQCXW4Z2)
-          </div>
-          <div class="list-item">
-            <strong>Meta: Programming with JavaScript</strong> (Coursera ID: 2KBEK73ZYGPX)
-          </div>
-          <div class="list-item">
-            <strong>Meta: Version Control (Git & GitHub)</strong> (Coursera ID: 34D46J5FKM5W)
-          </div>
-          <div class="list-item">
-            <strong>Meta: Principles of UX/UI Design</strong> (Coursera ID: V9RRQKLQDHUS)
-          </div>
-        </div>
+      <div class="section-title">CERTIFICATIONS AND PROFESSIONAL DEVELOPMENT</div>
+      <div class="entry-item">
+        <strong>Meta: Introduction to Front-End Development</strong> - Coursera Credential ID: 8AM5SQCXW4Z2
+      </div>
+      <div class="entry-item">
+        <strong>Meta: Programming with JavaScript</strong> - Coursera Credential ID: 2KBEK73ZYGPX
+      </div>
+      <div class="entry-item">
+        <strong>Meta: Version Control (Git and GitHub)</strong> - Coursera Credential ID: 34D46J5FKM5W
+      </div>
+      <div class="entry-item">
+        <strong>Meta: Principles of UX/UI Design</strong> - Coursera Credential ID: V9RRQKLQDHUS
+      </div>
+    </section>
 
-        <div>
-          <div class="section-title">Education & Languages</div>
-          <div class="list-item">
-            <strong>Bachelor of Arts in English Language & Literature (BA)</strong>
-            <div style="color: #64748b; font-size: 8pt;">The Higher Institute of Languages, Cairo (1998) &bull; Grade: Good (70.80%)</div>
-          </div>
-          <div class="list-item" style="margin-top: 6px;">
-            <strong>Languages:</strong> Arabic (Native), English (Professional Proficiency)
-          </div>
-        </div>
+    <section>
+      <div class="section-title">EDUCATION AND LANGUAGES</div>
+      <div class="entry-item">
+        <strong>Bachelor of Arts in English Language and Literature (BA)</strong> (1998) - The Higher Institute of Languages, Cairo, Egypt (Grade: Good, 70.80%)
+      </div>
+      <div class="entry-item">
+        <strong>Languages:</strong> Arabic (Native), English (Professional Working Proficiency)
       </div>
     </section>
   </div>
