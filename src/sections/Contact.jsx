@@ -26,7 +26,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Kuwait",
+    value: "Kuwait (Open to Relocate)",
     href: "https://maps.google.com/?q=Kuwait",
   },
 ];
