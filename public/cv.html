@@ -19,8 +19,8 @@
       font-family: Arial, Helvetica, "Segoe UI", sans-serif;
       color: #1e293b;
       background: #ffffff;
-      line-height: 1.5;
-      font-size: 9.3pt;
+      line-height: 1.48;
+      font-size: 9.2pt;
       -webkit-print-color-adjust: exact;
       print-color-adjust: exact;
     }
@@ -35,17 +35,17 @@
     header {
       text-align: center;
       border-bottom: 2px solid #0f766e;
-      padding-bottom: 12px;
-      margin-bottom: 16px;
+      padding-bottom: 10px;
+      margin-bottom: 14px;
     }
 
     .candidate-name {
-      font-size: 23pt;
+      font-size: 22pt;
       font-weight: bold;
       color: #0f172a;
       letter-spacing: -0.5px;
       line-height: 1.1;
-      margin-bottom: 5px;
+      margin-bottom: 4px;
     }
 
     .candidate-title {
@@ -57,7 +57,7 @@
     }
 
     .contact-bar {
-      font-size: 8.5pt;
+      font-size: 8.6pt;
       color: #475569;
       display: flex;
       justify-content: center;
@@ -83,24 +83,30 @@
 
     /* Section Styles */
     section {
-      margin-bottom: 16px;
+      margin-bottom: 14px;
+      page-break-inside: auto;
+    }
+
+    .avoid-break {
+      page-break-inside: avoid;
+      break-inside: avoid;
     }
 
     .section-title {
       font-size: 10pt;
       font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 0.8px;
+      letter-spacing: 0.7px;
       color: #0f172a;
       border-bottom: 1.5px solid #cbd5e1;
       padding-bottom: 3px;
-      margin-bottom: 9px;
+      margin-bottom: 8px;
     }
 
     .summary-text {
       color: #334155;
-      font-size: 9pt;
-      line-height: 1.55;
+      font-size: 8.8pt;
+      line-height: 1.5;
       text-align: justify;
     }
 
@@ -108,11 +114,11 @@
     .skills-list {
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 5px;
     }
 
     .skill-category {
-      font-size: 8.8pt;
+      font-size: 8.7pt;
       color: #334155;
       line-height: 1.45;
     }
@@ -125,20 +131,21 @@
 
     /* Projects */
     .project-item {
-      margin-bottom: 13px;
+      margin-bottom: 11px;
       page-break-inside: avoid;
+      break-inside: avoid;
     }
 
     .project-header {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      margin-bottom: 3px;
+      margin-bottom: 2px;
       gap: 10px;
     }
 
     .project-title {
-      font-size: 9.4pt;
+      font-size: 9.3pt;
       font-weight: bold;
       color: #0f172a;
     }
@@ -162,23 +169,23 @@
     }
 
     .project-desc {
-      font-size: 8.8pt;
+      font-size: 8.6pt;
       color: #334155;
-      line-height: 1.5;
+      line-height: 1.45;
       padding-left: 10px;
       border-left: 2.5px solid #cbd5e1;
-      margin-top: 3px;
+      margin-top: 2px;
     }
 
     /* Entry items for Education & Certifications */
     .entry-list {
       display: flex;
       flex-direction: column;
-      gap: 7px;
+      gap: 6px;
     }
 
     .entry-item {
-      font-size: 8.8pt;
+      font-size: 8.7pt;
       color: #334155;
       line-height: 1.45;
     }
@@ -291,30 +298,30 @@
     </section>
 
     <!-- Certifications -->
-    <section>
+    <section class="avoid-break">
       <div class="section-title">CERTIFICATIONS AND PROFESSIONAL DEVELOPMENT</div>
       <div class="entry-list">
         <div class="entry-item">
-          <strong>Meta: Introduction to Front-End Development</strong> - Coursera Credential ID: 8AM5SQCXW4Z2
+          <strong>Meta: Introduction to Front-End Development</strong> (Feb 2024) - Coursera Credential ID: 8AM5SQCXW4Z2
         </div>
         <div class="entry-item">
-          <strong>Meta: Programming with JavaScript</strong> - Coursera Credential ID: 2KBEK73ZYGPX
+          <strong>Meta: Programming with JavaScript</strong> (Feb 2024) - Coursera Credential ID: 2KBEK73ZYGPX
         </div>
         <div class="entry-item">
-          <strong>Meta: Version Control (Git and GitHub)</strong> - Coursera Credential ID: 34D46J5FKM5W
+          <strong>Meta: Version Control (Git and GitHub)</strong> (Mar 2024) - Coursera Credential ID: 34D46J5FKM5W
         </div>
         <div class="entry-item">
-          <strong>Meta: Principles of UX/UI Design</strong> - Coursera Credential ID: V9RRQKLQDHUS
+          <strong>Meta: Principles of UX/UI Design</strong> (Jun 2024) - Coursera Credential ID: V9RRQKLQDHUS
         </div>
       </div>
     </section>
 
     <!-- Education & Languages -->
-    <section>
+    <section class="avoid-break">
       <div class="section-title">EDUCATION AND LANGUAGES</div>
       <div class="entry-list">
         <div class="entry-item">
-          <strong>Bachelor of Arts in English Language and Literature (BA)</strong> (1998) - The Higher Institute of Languages, Cairo, Egypt (Grade: Good, 70.80%)
+          <strong>Bachelor of Arts in English Language and Literature (BA)</strong> (1998) - The Higher Institute of Languages, Cairo, Egypt
         </div>
         <div class="entry-item">
           <strong>Languages:</strong> Arabic (Native), English (Professional Working Proficiency)
