@@ -19,7 +19,7 @@
       font-family: Arial, Helvetica, "Segoe UI", sans-serif;
       color: #1e293b;
       background: #ffffff;
-      line-height: 1.42;
+      line-height: 1.45;
       font-size: 9pt;
       -webkit-print-color-adjust: exact;
       print-color-adjust: exact;
@@ -31,46 +31,61 @@
       margin: 0 auto;
     }
 
+    /* Executive Centered Header */
     header {
+      text-align: center;
       border-bottom: 2px solid #0f766e;
-      padding-bottom: 8px;
+      padding-bottom: 10px;
       margin-bottom: 12px;
     }
 
-    .header-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-
-    .name-title h1 {
-      font-size: 20pt;
+    .candidate-name {
+      font-size: 22pt;
       font-weight: bold;
       color: #0f172a;
       letter-spacing: -0.5px;
       line-height: 1.1;
+      margin-bottom: 4px;
     }
 
-    .name-title h2 {
-      font-size: 10.5pt;
+    .candidate-title {
+      font-size: 11pt;
       font-weight: bold;
       color: #0f766e;
-      margin-top: 3px;
+      margin-bottom: 6px;
+      letter-spacing: 0.2px;
     }
 
-    .contact-info {
-      text-align: right;
-      font-size: 8.5pt;
+    .contact-bar {
+      font-size: 8.8pt;
       color: #334155;
-      line-height: 1.5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px 10px;
     }
 
-    .contact-info a {
+    .contact-item {
+      white-space: nowrap;
+    }
+
+    .contact-bar a {
       color: #0f766e;
       text-decoration: none;
       font-weight: bold;
     }
 
+    .contact-bar a:hover {
+      text-decoration: underline;
+    }
+
+    .separator {
+      color: #94a3b8;
+      font-weight: normal;
+    }
+
+    /* Section Styles */
     section {
       margin-bottom: 11px;
     }
@@ -79,11 +94,11 @@
       font-size: 10pt;
       font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.6px;
       color: #0f172a;
-      border-bottom: 1px solid #cbd5e1;
-      padding-bottom: 2px;
-      margin-bottom: 6px;
+      border-bottom: 1.5px solid #cbd5e1;
+      padding-bottom: 3px;
+      margin-bottom: 7px;
     }
 
     .summary-text {
@@ -93,6 +108,7 @@
       text-align: justify;
     }
 
+    /* Technical Skills */
     .skills-list {
       display: flex;
       flex-direction: column;
@@ -102,12 +118,14 @@
     .skill-category {
       font-size: 8.6pt;
       color: #334155;
+      line-height: 1.4;
     }
 
     .skill-category strong {
       color: #0f172a;
     }
 
+    /* Projects */
     .project-item {
       margin-bottom: 8px;
       page-break-inside: avoid;
@@ -131,10 +149,16 @@
       text-decoration: none;
     }
 
+    .project-title a:hover {
+      color: #0f766e;
+      text-decoration: underline;
+    }
+
     .project-tech {
       font-size: 8pt;
       font-weight: bold;
       color: #0f766e;
+      white-space: nowrap;
     }
 
     .project-desc {
@@ -145,10 +169,12 @@
       border-left: 2px solid #e2e8f0;
     }
 
+    /* Entry items for Education & Certifications */
     .entry-item {
       font-size: 8.6pt;
       color: #334155;
       margin-bottom: 4px;
+      line-height: 1.4;
     }
 
     .entry-item strong {
@@ -158,20 +184,22 @@
 </head>
 <body>
   <div class="cv-container">
+    <!-- Executive Clean Centered Header -->
     <header>
-      <div class="header-top">
-        <div class="name-title">
-          <h1>NOHA MAMDOUH AHMED</h1>
-          <h2>Frontend and Full-Stack Developer | AI and SaaS Application Engineering</h2>
-        </div>
-        <div class="contact-info">
-          <div>Location: Kuwait (Open to Relocate) | Phone: +965 65063531</div>
-          <div>Email: <a href="mailto:noha.mamdouh@outlook.com">noha.mamdouh@outlook.com</a></div>
-          <div>GitHub: <a href="https://github.com/NohaCode-lab" target="_blank">github.com/NohaCode-lab</a></div>
-        </div>
+      <h1 class="candidate-name">NOHA MAMDOUH AHMED</h1>
+      <div class="candidate-title">Frontend &amp; Full-Stack Developer | AI &amp; SaaS Application Engineering</div>
+      <div class="contact-bar">
+        <span class="contact-item">Location: Kuwait (Open to Relocate)</span>
+        <span class="separator">|</span>
+        <span class="contact-item">Phone: +965 65063531</span>
+        <span class="separator">|</span>
+        <span class="contact-item">Email: <a href="mailto:noha.mamdouh@outlook.com">noha.mamdouh@outlook.com</a></span>
+        <span class="separator">|</span>
+        <span class="contact-item">GitHub: <a href="https://github.com/NohaCode-lab" target="_blank">github.com/NohaCode-lab</a></span>
       </div>
     </header>
 
+    <!-- Professional Summary -->
     <section>
       <div class="section-title">PROFESSIONAL SUMMARY</div>
       <p class="summary-text">
@@ -179,6 +207,7 @@
       </p>
     </section>
 
+    <!-- Technical Skills -->
     <section>
       <div class="section-title">TECHNICAL SKILLS</div>
       <div class="skills-list">
@@ -200,6 +229,7 @@
       </div>
     </section>
 
+    <!-- Featured Projects -->
     <section>
       <div class="section-title">FEATURED SOFTWARE ENGINEERING PROJECTS</div>
 
@@ -254,6 +284,7 @@
       </div>
     </section>
 
+    <!-- Certifications -->
     <section>
       <div class="section-title">CERTIFICATIONS AND PROFESSIONAL DEVELOPMENT</div>
       <div class="entry-item">
@@ -270,6 +301,7 @@
       </div>
     </section>
 
+    <!-- Education & Languages -->
     <section>
       <div class="section-title">EDUCATION AND LANGUAGES</div>
       <div class="entry-item">
