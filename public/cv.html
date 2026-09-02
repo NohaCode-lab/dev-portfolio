@@ -1,0 +1,313 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noha Ahmed - Curriculum Vitae</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+    @page {
+      size: A4;
+      margin: 10mm 14mm 10mm 14mm;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #1e293b;
+      background: #ffffff;
+      line-height: 1.4;
+      font-size: 9pt;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .cv-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 2px solid #0f766e;
+      padding-bottom: 8px;
+      margin-bottom: 10px;
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .name-title h1 {
+      font-size: 21pt;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+    }
+
+    .name-title h2 {
+      font-size: 10.5pt;
+      font-weight: 600;
+      color: #0f766e;
+      margin-top: 2px;
+      letter-spacing: 0.2px;
+    }
+
+    .contact-info {
+      text-align: right;
+      font-size: 8.5pt;
+      color: #475569;
+      line-height: 1.5;
+    }
+
+    .contact-info a {
+      color: #0f766e;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    section {
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-size: 10pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #0f172a;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 2px;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .section-title::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background-color: #0f766e;
+      border-radius: 2px;
+    }
+
+    .summary-text {
+      color: #334155;
+      font-size: 8.8pt;
+      line-height: 1.45;
+      text-align: justify;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4px 14px;
+    }
+
+    .skill-category {
+      font-size: 8.6pt;
+    }
+
+    .skill-category strong {
+      color: #0f172a;
+      font-weight: 600;
+    }
+
+    .skill-category span {
+      color: #475569;
+    }
+
+    .project-item {
+      margin-bottom: 7px;
+      page-break-inside: avoid;
+    }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+
+    .project-title {
+      font-size: 9.2pt;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .project-title a {
+      color: #0f172a;
+      text-decoration: none;
+    }
+
+    .project-tech {
+      font-size: 7.8pt;
+      font-weight: 600;
+      color: #0f766e;
+      background: #f0fdfa;
+      padding: 1px 5px;
+      border-radius: 4px;
+      border: 1px solid #ccfbf1;
+    }
+
+    .project-desc {
+      font-size: 8.4pt;
+      color: #334155;
+      line-height: 1.38;
+      padding-left: 8px;
+      border-left: 2px solid #e2e8f0;
+    }
+
+    .two-col-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .list-item {
+      font-size: 8.6pt;
+      color: #334155;
+      margin-bottom: 3px;
+    }
+
+    .list-item strong {
+      color: #0f172a;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <header>
+      <div class="header-top">
+        <div class="name-title">
+          <h1>Noha Ahmed</h1>
+          <h2>Frontend & Full-Stack Application Developer | AI Solutions</h2>
+        </div>
+        <div class="contact-info">
+          <div>📍 Kuwait | 📱 +965 65063531</div>
+          <div>✉️ <a href="mailto:noha.mamdouh@outlook.com">noha.mamdouh@outlook.com</a></div>
+          <div>🌐 <a href="https://github.com/NohaCode-lab" target="_blank">github.com/NohaCode-lab</a></div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="section-title">Professional Summary</div>
+      <p class="summary-text">
+        Results-driven <strong>Frontend & Full-Stack Web Developer</strong> specializing in building high-performance, responsive web applications and AI-augmented digital platforms. Extensive experience architecting modern applications using <strong>React, TypeScript, Tailwind CSS, Python, FastAPI, and NestJS</strong>. Passionate about clean code architecture, 100% automated test coverage, accessibility (WCAG), and seamless UX design that transforms complex requirements into intuitive digital products.
+      </p>
+    </section>
+
+    <section>
+      <div class="section-title">Core Technical Skills</div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <strong>Frontend & UI/UX:</strong>
+          <span>React 18/19, TypeScript, JavaScript (ES6+), Tailwind CSS, HTML5, CSS3, Vite, Framer Motion, Zustand.</span>
+        </div>
+        <div class="skill-category">
+          <strong>Backend & APIs:</strong>
+          <span>Python, FastAPI, Node.js, NestJS, Express, PostgreSQL, Prisma ORM, Redis, Supabase, REST APIs.</span>
+        </div>
+        <div class="skill-category">
+          <strong>AI & Intelligent Systems:</strong>
+          <span>OpenAI API, Google Gemini AI, LangGraph, Multi-Agent Pipelines, Prompt Engineering, AI Concierge.</span>
+        </div>
+        <div class="skill-category">
+          <strong>DevOps & Quality Assurance:</strong>
+          <span>Git, GitHub Actions (CI/CD), Docker, Vitest, Jest, Unit/Integration Testing, Web Security (OWASP).</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Featured Engineering Projects</div>
+
+      <div class="project-item">
+        <div class="project-header">
+          <span class="project-title"><a href="https://github.com/NohaCode-lab/CareerCraft" target="_blank">CareerCraft — AI Career Platform & Multi-Agent Architecture</a></span>
+          <span class="project-tech">React • TypeScript • FastAPI • Python • LangGraph • Vitest</span>
+        </div>
+        <div class="project-desc">
+          <span>Architected an enterprise-grade career advancement platform featuring resume ATS parsing, intelligent job recommendation engines, and dynamic interview simulation. Implemented automated gate validations with 82/82 Vitest test suite passing and full i18n support (EN, DE, AR).</span>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-header">
+          <span class="project-title"><a href="https://github.com/NohaCode-lab/Supper-Mind" target="_blank">Supper-Mind — Multilingual AI Wellness & Habit Analytics SaaS</a></span>
+          <span class="project-tech">React • TypeScript • Tailwind CSS • Zustand • Supabase • OpenAI</span>
+        </div>
+        <div class="project-desc">
+          <span>Engineered a comprehensive wellness tracking platform featuring mood analytics, AI wellness coaching, and interactive habit streaks. Built secure Supabase authentication, offline fallback resilience, and 17/17 automated test suites.</span>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-header">
+          <span class="project-title"><a href="https://github.com/NohaCode-lab/Fit-Zone" target="_blank">Fit-Zone — Enterprise Fitness & Subscription Platform</a></span>
+          <span class="project-tech">React • NestJS • Prisma ORM • PostgreSQL • Redis • Gemini AI</span>
+        </div>
+        <div class="project-desc">
+          <span>Developed a full-stack gym and wellness booking system with protected route access control, live class scheduling, and personalized AI workout recommendations. Hardened backend API endpoints with JWT guards and argon2 hashing.</span>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-header">
+          <span class="project-title"><a href="https://github.com/NohaCode-lab/Jewelry-Store-website" target="_blank">Mangata & Gallo — Luxury Commerce Platform & AI Atelier</a></span>
+          <span class="project-tech">React • TypeScript • Express • Prisma • PostgreSQL • Tailwind CSS</span>
+        </div>
+        <div class="project-desc">
+          <span>Built a high-jewelry e-commerce application with dynamic carat calculators, real-time metal filtering, and an AI gift concierge. Eliminated authentication bypass vulnerabilities and established robust security headers.</span>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-header">
+          <span class="project-title"><a href="https://github.com/NohaCode-lab/Aether-Travel" target="_blank">Aether-Travel — Interactive Destination Exploration Platform</a></span>
+          <span class="project-tech">React • TypeScript • Vite • Tailwind CSS • Leaflet Maps • Zustand</span>
+        </div>
+        <div class="project-desc">
+          <span>Designed an interactive travel booking portal with interactive destination routing, itinerary planners, and responsive UI components backed by 18 integration tests.</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="two-col-grid">
+        <div>
+          <div class="section-title">Education & Credentials</div>
+          <div class="list-item">
+            <strong>Bachelor's Degree in Computer Science / Information Systems</strong>
+          </div>
+          <div class="list-item">
+            <strong>Professional Full-Stack Web Development & Modern React Specialization</strong>
+          </div>
+        </div>
+
+        <div>
+          <div class="section-title">Languages & Soft Skills</div>
+          <div class="list-item">
+            <strong>Languages:</strong> Arabic (Native), English (Professional Proficiency)
+          </div>
+          <div class="list-item">
+            <strong>Soft Skills:</strong> Problem Solving, Agile Collaboration, UI/UX Design, Clean Code.
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
