@@ -19,8 +19,8 @@
       font-family: Arial, Helvetica, "Segoe UI", sans-serif;
       color: #1e293b;
       background: #ffffff;
-      line-height: 1.45;
-      font-size: 9pt;
+      line-height: 1.5;
+      font-size: 9.3pt;
       -webkit-print-color-adjust: exact;
       print-color-adjust: exact;
     }
@@ -35,17 +35,17 @@
     header {
       text-align: center;
       border-bottom: 2px solid #0f766e;
-      padding-bottom: 10px;
-      margin-bottom: 12px;
+      padding-bottom: 12px;
+      margin-bottom: 16px;
     }
 
     .candidate-name {
-      font-size: 22pt;
+      font-size: 23pt;
       font-weight: bold;
       color: #0f172a;
       letter-spacing: -0.5px;
       line-height: 1.1;
-      margin-bottom: 4px;
+      margin-bottom: 5px;
     }
 
     .candidate-title {
@@ -57,16 +57,12 @@
     }
 
     .contact-bar {
-      font-size: 8.8pt;
-      color: #334155;
+      font-size: 8.5pt;
+      color: #475569;
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-wrap: wrap;
-      gap: 6px 10px;
-    }
-
-    .contact-item {
+      gap: 8px;
       white-space: nowrap;
     }
 
@@ -87,24 +83,24 @@
 
     /* Section Styles */
     section {
-      margin-bottom: 11px;
+      margin-bottom: 16px;
     }
 
     .section-title {
       font-size: 10pt;
       font-weight: bold;
       text-transform: uppercase;
-      letter-spacing: 0.6px;
+      letter-spacing: 0.8px;
       color: #0f172a;
       border-bottom: 1.5px solid #cbd5e1;
       padding-bottom: 3px;
-      margin-bottom: 7px;
+      margin-bottom: 9px;
     }
 
     .summary-text {
       color: #334155;
-      font-size: 8.8pt;
-      line-height: 1.45;
+      font-size: 9pt;
+      line-height: 1.55;
       text-align: justify;
     }
 
@@ -112,22 +108,24 @@
     .skills-list {
       display: flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 6px;
     }
 
     .skill-category {
-      font-size: 8.6pt;
+      font-size: 8.8pt;
       color: #334155;
-      line-height: 1.4;
+      line-height: 1.45;
     }
 
     .skill-category strong {
       color: #0f172a;
+      display: inline-block;
+      min-width: 170px;
     }
 
     /* Projects */
     .project-item {
-      margin-bottom: 8px;
+      margin-bottom: 13px;
       page-break-inside: avoid;
     }
 
@@ -135,11 +133,12 @@
       display: flex;
       justify-content: space-between;
       align-items: baseline;
-      margin-bottom: 2px;
+      margin-bottom: 3px;
+      gap: 10px;
     }
 
     .project-title {
-      font-size: 9.2pt;
+      font-size: 9.4pt;
       font-weight: bold;
       color: #0f172a;
     }
@@ -159,22 +158,29 @@
       font-weight: bold;
       color: #0f766e;
       white-space: nowrap;
+      text-align: right;
     }
 
     .project-desc {
-      font-size: 8.5pt;
+      font-size: 8.8pt;
       color: #334155;
-      line-height: 1.4;
-      padding-left: 8px;
-      border-left: 2px solid #e2e8f0;
+      line-height: 1.5;
+      padding-left: 10px;
+      border-left: 2.5px solid #cbd5e1;
+      margin-top: 3px;
     }
 
     /* Entry items for Education & Certifications */
+    .entry-list {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+
     .entry-item {
-      font-size: 8.6pt;
+      font-size: 8.8pt;
       color: #334155;
-      margin-bottom: 4px;
-      line-height: 1.4;
+      line-height: 1.45;
     }
 
     .entry-item strong {
@@ -184,18 +190,18 @@
 </head>
 <body>
   <div class="cv-container">
-    <!-- Executive Clean Centered Header -->
+    <!-- Executive Centered Header -->
     <header>
       <h1 class="candidate-name">NOHA MAMDOUH AHMED</h1>
       <div class="candidate-title">Frontend &amp; Full-Stack Developer | AI &amp; SaaS Application Engineering</div>
       <div class="contact-bar">
-        <span class="contact-item">Location: Kuwait (Open to Relocate)</span>
+        <span>Location: Kuwait (Open to Relocate)</span>
         <span class="separator">|</span>
-        <span class="contact-item">Phone: +965 65063531</span>
+        <span>Phone: +965 65063531</span>
         <span class="separator">|</span>
-        <span class="contact-item">Email: <a href="mailto:noha.mamdouh@outlook.com">noha.mamdouh@outlook.com</a></span>
+        <span>Email: <a href="mailto:noha.mamdouh@outlook.com">noha.mamdouh@outlook.com</a></span>
         <span class="separator">|</span>
-        <span class="contact-item">GitHub: <a href="https://github.com/NohaCode-lab" target="_blank">github.com/NohaCode-lab</a></span>
+        <span>GitHub: <a href="https://github.com/NohaCode-lab" target="_blank">github.com/NohaCode-lab</a></span>
       </div>
     </header>
 
@@ -215,16 +221,16 @@
           <strong>Frontend Engineering:</strong> React (18/19), TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Vite, Zustand, React Router, Framer Motion, Responsive Design, WCAG.
         </div>
         <div class="skill-category">
-          <strong>Backend and API Systems:</strong> Python, FastAPI, Node.js, NestJS, Express.js, RESTful APIs, PostgreSQL, Prisma ORM, Redis, Supabase (BaaS).
+          <strong>Backend &amp; API Systems:</strong> Python, FastAPI, Node.js, NestJS, Express.js, RESTful APIs, PostgreSQL, Prisma ORM, Redis, Supabase (BaaS).
         </div>
         <div class="skill-category">
-          <strong>AI and Intelligent Systems:</strong> OpenAI API, Google Gemini AI, LangGraph, AI Agent Workflows, Prompt Engineering, Contextual Retrieval Patterns.
+          <strong>AI &amp; Intelligent Systems:</strong> OpenAI API, Google Gemini AI, LangGraph, AI Agent Workflows, Prompt Engineering, Contextual Retrieval Patterns.
         </div>
         <div class="skill-category">
-          <strong>DevOps, Quality and Security:</strong> Git, GitHub Actions (CI/CD), Docker, Vitest, Jest, Unit and Integration Testing, ESLint, OWASP Security Hardening.
+          <strong>DevOps, Quality &amp; Security:</strong> Git, GitHub Actions (CI/CD), Docker, Vitest, Jest, Unit and Integration Testing, ESLint, OWASP Security Hardening.
         </div>
         <div class="skill-category">
-          <strong>UI/UX and Design Systems:</strong> Figma, Wireframing, UX/UI Design Principles (Meta Certified), Design Tokens.
+          <strong>UI/UX &amp; Design Systems:</strong> Figma, Wireframing, UX/UI Design Principles (Meta Certified), Design Tokens.
         </div>
       </div>
     </section>
@@ -287,28 +293,32 @@
     <!-- Certifications -->
     <section>
       <div class="section-title">CERTIFICATIONS AND PROFESSIONAL DEVELOPMENT</div>
-      <div class="entry-item">
-        <strong>Meta: Introduction to Front-End Development</strong> - Coursera Credential ID: 8AM5SQCXW4Z2
-      </div>
-      <div class="entry-item">
-        <strong>Meta: Programming with JavaScript</strong> - Coursera Credential ID: 2KBEK73ZYGPX
-      </div>
-      <div class="entry-item">
-        <strong>Meta: Version Control (Git and GitHub)</strong> - Coursera Credential ID: 34D46J5FKM5W
-      </div>
-      <div class="entry-item">
-        <strong>Meta: Principles of UX/UI Design</strong> - Coursera Credential ID: V9RRQKLQDHUS
+      <div class="entry-list">
+        <div class="entry-item">
+          <strong>Meta: Introduction to Front-End Development</strong> - Coursera Credential ID: 8AM5SQCXW4Z2
+        </div>
+        <div class="entry-item">
+          <strong>Meta: Programming with JavaScript</strong> - Coursera Credential ID: 2KBEK73ZYGPX
+        </div>
+        <div class="entry-item">
+          <strong>Meta: Version Control (Git and GitHub)</strong> - Coursera Credential ID: 34D46J5FKM5W
+        </div>
+        <div class="entry-item">
+          <strong>Meta: Principles of UX/UI Design</strong> - Coursera Credential ID: V9RRQKLQDHUS
+        </div>
       </div>
     </section>
 
     <!-- Education & Languages -->
     <section>
       <div class="section-title">EDUCATION AND LANGUAGES</div>
-      <div class="entry-item">
-        <strong>Bachelor of Arts in English Language and Literature (BA)</strong> (1998) - The Higher Institute of Languages, Cairo, Egypt (Grade: Good, 70.80%)
-      </div>
-      <div class="entry-item">
-        <strong>Languages:</strong> Arabic (Native), English (Professional Working Proficiency)
+      <div class="entry-list">
+        <div class="entry-item">
+          <strong>Bachelor of Arts in English Language and Literature (BA)</strong> (1998) - The Higher Institute of Languages, Cairo, Egypt (Grade: Good, 70.80%)
+        </div>
+        <div class="entry-item">
+          <strong>Languages:</strong> Arabic (Native), English (Professional Working Proficiency)
+        </div>
       </div>
     </section>
   </div>
